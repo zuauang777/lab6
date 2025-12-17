@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int A[12], neparni = 0, C[12], index = 0;
+    int A[12], neparni = 0, C[12], index = 0, a;
 
 
     // введення елементів мисиву
@@ -49,9 +49,10 @@ int main()
 
 
     // вивід нового масиву
-    for (int i = 0; i < 12; i++)
+   while (a < 12)
     {
-        cout << C[i] << " ";
+        cout << C[a] << " ";
+        a++;
     }
 
     return 0;
